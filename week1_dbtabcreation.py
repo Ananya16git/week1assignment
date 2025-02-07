@@ -11,7 +11,7 @@ import pandas as pd
 # In[ ]:
 
 
-conn = sqlite3.connect("week1_database.db")  # Creates or connects to a database
+conn = sqlite3.connect("week1_database.db")  # Creates or connects to a database.
 cursor = conn.cursor()  # Create a cursor to interact with the database
 
 
